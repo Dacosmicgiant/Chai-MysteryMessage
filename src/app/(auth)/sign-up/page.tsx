@@ -50,7 +50,7 @@ const Page = () => {
             `/api/check-username-unique?username=${username}`
           );
 
-        //   console.log(response.data.message)
+        //  console.log(response.data.message)
         let message = response.data.message
         setUsernameMessage(message)
 
